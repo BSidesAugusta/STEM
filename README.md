@@ -1,0 +1,2 @@
+# STEM
+BSidesAugusta STEM is a conference focused on developing interest in computers, programming, and electronics in the Central Savannah River Area (CSRA).  In the primary track, local youth will learn skills for the future through fun and innovative activities.  The conference also offers a secondary track for educators and parents interested in supporting skill development in a variety of academic settings.
