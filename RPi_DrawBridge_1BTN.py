@@ -67,22 +67,27 @@ Open_Road = 'RoadWay'
 ChgLights(Open_Road)
 RoadWay_Gate.start(10)
 WaterWay_Gate.start(5)
+gate_state = 2
 
 try:
 	while True:
 		Road_Input = GPIO.input(PSHBTNPIN17)
-		if Road_Input == True and Open_Road == 'WaterWay':
+		if Road_Input == True and gate_state == 1:
 			print "Opening Road Way"
 			Open_Road = 'RoadWay'
 			ChgLights(Open_Road)
 			RoadWay_Gate.start(10)
 			WaterWay_Gate.start(5)
-		if Road_Input == True and Open_Road == 'RoadWay':
+			gate_state = 2
+			Road_Input = False
+		if Road_Input == True and gate_state == 2:
 			print "Opening Water Way"
 			Open_Road = 'WaterWay'
 			ChgLights(Open_Road)
 			RoadWay_Gate.start(5)
 			WaterWay_Gate.start(10)
+			gate_state = 1
+			Road_Input = False
 except KeyboardInterrupt:
 	print "Closing Road and Water Way.  Shutting System Down...."
 	RoadWay_Gate.start(5)
