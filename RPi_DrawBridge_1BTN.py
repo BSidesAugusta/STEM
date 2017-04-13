@@ -20,12 +20,12 @@ PSHBTNPIN17 = 17
 GPIO.setup(PSHBTNPIN17,GPIO.IN,pull_up_down=GPIO.PUD_UP)
 
 #Output Pins
-LEDPIN16 = 16
-LEDPIN20 = 20
-LEDPIN21 = 21
-GPIO.setup(LEDPIN16,GPIO.OUT)
-GPIO.setup(LEDPIN20,GPIO.OUT)
-GPIO.setup(LEDPIN21,GPIO.OUT)
+LEDRED16 = 16
+LEDYLW20 = 20
+LEDGRN21 = 21
+GPIO.setup(LEDRED16,GPIO.OUT)
+GPIO.setup(LEDYLW20,GPIO.OUT)
+GPIO.setup(LEDGRN21,GPIO.OUT)
 
 #Output PWM: GPIO12, GPIO18
 servoPINRW = 12
@@ -44,19 +44,19 @@ WaterWay_Gate.start(5)
 #Function to change lights
 def ChgLights (Open_Road):
   if Open_Road == 'RoadWay':
-    GPIO.output(LEDPIN16,GPIO.LOW)
-    GPIO.output(LEDPIN20,GPIO.HIGH)
+    GPIO.output(LEDRED16,GPIO.LOW)
+    GPIO.output(LEDYLW20,GPIO.HIGH)
     time.sleep(1)
-    GPIO.output(LEDPIN20,GPIO.LOW)
-    GPIO.output(LEDPIN21,GPIO.HIGH)
+    GPIO.output(LEDYLW20,GPIO.LOW)
+    GPIO.output(LEDGRN21,GPIO.HIGH)
     print "Road Way is Open and Water Way is Closed"
     return;
   if Open_Road == 'WaterWay':
-    GPIO.output(LEDPIN21,GPIO.LOW)
-    GPIO.output(LEDPIN20,GPIO.HIGH)
+    GPIO.output(LEDGRN21,GPIO.LOW)
+    GPIO.output(LEDYLW20,GPIO.HIGH)
     time.sleep(1)
-    GPIO.output(LEDPIN20,GPIO.LOW)
-    GPIO.output(LEDPIN16,GPIO.HIGH)
+    GPIO.output(LEDYLW20,GPIO.LOW)
+    GPIO.output(LEDRED16,GPIO.HIGH)
     print "Road Way is Closed and Water Way is Open"
     return;
 
@@ -92,15 +92,15 @@ except KeyboardInterrupt:
 	print "Closing Road and Water Way.  Shutting System Down...."
 	RoadWay_Gate.start(5)
 	WaterWay_Gate.start(5)
-	GPIO.output(LEDPIN16,GPIO.HIGH)
+	GPIO.output(LEDRED16,GPIO.HIGH)
 	time.sleep(0.5)
-	GPIO.output(LEDPIN20,GPIO.HIGH)
+	GPIO.output(LEDYLW20,GPIO.HIGH)
 	time.sleep(0.5)
-	GPIO.output(LEDPIN21,GPIO.HIGH)
+	GPIO.output(LEDGRN21,GPIO.HIGH)
 	time.sleep(0.5)
-	GPIO.output(LEDPIN16,GPIO.LOW)
-	GPIO.output(LEDPIN20,GPIO.LOW)
-	GPIO.output(LEDPIN21,GPIO.LOW)
+	GPIO.output(LEDRED16,GPIO.LOW)
+	GPIO.output(LEDYLW20,GPIO.LOW)
+	GPIO.output(LEDGRN21,GPIO.LOW)
 	time.sleep(0.1)
 
 print "Good bye!"
