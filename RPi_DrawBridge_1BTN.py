@@ -89,6 +89,7 @@ try:
 			gate_state = 1
 			Road_Input = False
 except KeyboardInterrupt:
+	#Close all the gates and turn on all the LEDs in sequence.
 	print "Closing Road and Water Way.  Shutting System Down...."
 	RoadWay_Gate.start(5)
 	WaterWay_Gate.start(5)
