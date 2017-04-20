@@ -3,10 +3,7 @@ Pi-Top CEED Setup
 
 Inventory Equipment
 -------------------
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 Take a moment to make sure you have
 everything you need.
 
