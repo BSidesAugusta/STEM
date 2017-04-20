@@ -3,10 +3,10 @@ Pi-Top CEED Setup
 
 Inventory Equipment
 -------------------
-
-![](./media/image3.jpeg){width="4.758333333333334in"
-height="5.289917979002625in"}Take a moment to make sure you have
+Take a moment to make sure you have
 everything you need.
+
+![](./media/image3.jpeg)
 
 1.  Pi-Top CEED
 
