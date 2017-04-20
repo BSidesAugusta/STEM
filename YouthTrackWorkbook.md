@@ -4,9 +4,10 @@ Pi-Top CEED Setup
 Inventory Equipment
 -------------------
 
-![](./media/image3.jpeg){width="4.758333333333334in"
-height="5.289917979002625in"}Take a moment to make sure you have
+Take a moment to make sure you have
 everything you need.
+
+![](./media/image3.jpeg)
 
 1.  Pi-Top CEED
 
@@ -27,68 +28,63 @@ everything you need.
 Pi-Top CEED Setup
 -----------------
 
-![](./media/image4.jpeg){width="4.025in" height="2.607638888888889in"}
 Setting up the pi-top CEED is easy. To get everything setup, you will
 need to unbox the pi-top CEED, pi-top proto, the Raspberry Pi 3, and the
 keyboard/mouse.
 
+![](./media/image4.jpeg)
+
 1.  Open up the pi-top CEED and slide the lower acrylic window to the
     right to install the pi-top proto and the Raspberry Pi.
 
-    ![](./media/image5.jpeg){width="1.6368143044619423in"
-    height="2.4494444444444445in"}
+    ![](./media/image5.jpeg)
 
-2.  ![](./media/image6.jpeg){width="2.7416666666666667in"
-    height="1.601388888888889in"}Place the magnet footings into the
+2.  Place the magnet footings into the
     holes on the pi-top proto and the Raspberry Pi.
+	
+	![](./media/image6.jpeg)
 
-    ![](./media/image7.jpeg){width="1.9833333333333334in"
-    height="1.5946008311461068in"}
+    ![](./media/image7.jpeg)
 
 3.  The pi-top proto will mount to the metal rails and slide left to
     seat the male pins into the female connector of the pi-top CEED
     control board.
 
-    ![](./media/image8.jpeg){width="3.3722222222222222in"
-    height="2.4125in"}![](./media/image9.jpeg){width="3.7479516622922135in"
-    height="2.4166666666666665in"}
+    ![](./media/image8.jpeg)
 
-4.  ![](./media/image10.jpeg){width="1.9993055555555554in"
-    height="2.923611111111111in"}Before installing the Raspberry Pi,
+4.  Before installing the Raspberry Pi,
     insert the micro SD card provided with the pi-top CEED into the
     Raspberry Pi micro SD slot on the bottom of the card.
+	
+	![](./media/image10.jpeg)
 
-    ![](./media/image11.jpeg){width="2.0479166666666666in"
-    height="1.3097222222222222in"}![](./media/image12.jpeg){width="2.0006944444444446in"
-    height="1.175in"}
+    ![](./media/image11.jpeg)
 
-5.  ![](./media/image13.jpeg){width="2.183333333333333in"
-    height="2.776781496062992in"}Now connect the HDMI cord to the
+5.  Now connect the HDMI cord to the
     Raspberry Pi. Also, connect the 40-pin connector from the pi-top
     CEED to the 40-pin male pins on the Raspberry Pi. The red wire
     should be on the left.
+	
+	![](./media/image13.jpeg)
 
-![](./media/image14.jpeg){width="2.3745494313210846in"
-height="2.700219816272966in"}
+![](./media/image14.jpeg)
 
 1.  The Raspberry Pi will mount to the metal rails and slide right so
     the USB slots are accessible.
 
-    ![](./media/image15.jpeg){width="3.05in"
-    height="2.2132053805774277in"}
+    ![](./media/image15.jpeg)
 
 2.  Insert the USB connectors for the keyboard and mouse into the
     Raspberry Pi.
 
-    ![](./media/image16.jpeg){width="2.425in"
-    height="2.8716174540682413in"}
+    ![](./media/image16.jpeg)
 
-    ![](./media/image17.jpeg){width="3.2083333333333335in"
-    height="2.3879615048118987in"}
+    ![](./media/image17.jpeg)
 
-3.  ![](./media/image18.jpeg){width="5.658333333333333in"
-    height="2.908963254593176in"}The power cable for the pi-top CEED is
+3.  The power cable for the pi-top CEED is
     inserted into the back left of the pi-top CEED.
+	
+	![](./media/image18.jpeg)
 
 Connect GPIO Board
 ------------------
@@ -99,22 +95,18 @@ You will learn more about them later.
 
 1.  Connect the Cana Kit breadboard adapter to your breadboard.
 
-    ![](./media/image19.jpeg){width="3.558333333333333in"
-    height="1.4417804024496939in"}![](./media/image20.jpeg){width="3.727128171478565in"
-    height="1.5166666666666666in"}
+    ![](./media/image19.jpeg)![](./media/image20.jpeg)
 
-    ![](./media/image21.jpeg){width="1.8735564304461942in"
-    height="3.0416666666666665in"}
+    ![](./media/image21.jpeg)
 
 2.  Connect the ribbon cable to the breadboard adapter.
 
-    ![](./media/image22.jpeg){width="3.1in"
-    height="2.351360454943132in"}![](./media/image23.jpeg){width="2.0083333333333333in"
-    height="2.365982064741907in"}
+    ![](./media/image22.jpeg)![](./media/image23.jpeg)
 
-3.  ![](./media/image24.jpeg){width="2.536111111111111in"
-    height="1.9020833333333333in"}Connect the ribbon cable to the pi-top
+3.  Connect the ribbon cable to the pi-top
     proto pins. The red strip must be on the left.
+	
+	![](./media/image24.jpeg)
 
 Initialize the Pi-Top OS
 ------------------------
@@ -125,33 +117,31 @@ It’s time to start your Pi-Top CEED!
     left. Press and hold the button and look for the power lights on the
     Raspberry Pi.
 
-    ![](./media/image25.jpeg){width="4.824745188101487in"
-    height="1.8185575240594927in"}
+    ![](./media/image25.jpeg)
 
 2.  The operating system will boot into its initial setup screen. Click
     on “Get Started” and select the “US Keyboard”.
 
-    ![](./media/image26.jpeg){width="3.188888888888889in"
-    height="2.3916666666666666in"}![](./media/image27.jpeg){width="3.188888888888889in"
-    height="2.3916666666666666in"}
+    ![](./media/image26.jpeg)![](./media/image27.jpeg)
 
 3.  Connect to a wireless network access point by clicking on “Select
     Wi-Fi Network”. You can click “Skip” if you are not near an access
     point.
 
-    ![](./media/image28.jpeg){width="3.408333333333333in"
-    height="2.55625in"}
+    ![](./media/image28.jpeg)
 
 4.  Enter the operating system.
 
-    ![](./media/image29.jpeg){width="5.05in" height="3.7875in"}
+    ![](./media/image29.jpeg)
 
 Congratulations! You are all setup. Now enjoy some programming.
 
 Introduction to Programming with Python
 =======================================
 
-![](./media/image30.jpeg){width="3.2583333333333333in" height="2.44375in"}“Hello World” in Python
+“Hello World” in Python
+
+![](./media/image30.jpeg)
 -------------------------------------------------------------------------------------------------
 
 Now it’s time to write your first Python program using your Pi. To do
@@ -168,20 +158,21 @@ this follow the steps below:
 4.  Go to the File menu and click on “New File”. You will enter commands
     in this newest window.
 
-![](./media/image31.jpeg){width="3.2583333333333333in"
-height="1.4041666666666666in"}
+![](./media/image31.jpeg)
 
-1.  ![](./media/image32.jpeg){width="3.2583333333333333in"
-    height="1.1479166666666667in"}Add the print statement as shown in
+1.  Add the print statement as shown in
     the figure to the below. You will also notice that the file was
     saved as “Hello.py”.
+	
+	![](./media/image32.jpeg)
 
-2.  ![](./media/image33.jpeg){width="3.238888888888889in"
-    height="2.0590277777777777in"}To run the program, go to the Run menu
+2.  To run the program, go to the Run menu
     and click on Run Module. You will probably notice that you can just
     push F5 to get the job done. You should see the program output in
     the Python Shell window. Congratulations, you’ve just run your first
     Python program.
+	
+	![](./media/image33.jpeg)
 
 A Few Python Coding Tricks
 --------------------------
@@ -245,7 +236,9 @@ Input/Output board.
 GPIO on the Pi
 --------------
 
-![](./media/image34.png){width="3.775in" height="2.58125in"} One of the
+![](./media/image34.png)
+
+ One of the
 exciting things about the Pi is its 40 General Purpose Input/Output
 (GPIO) pins. These pins, as you can see from the figure below, have
 names like GPIO 4, GPIO 21, and so on. You can use these pins to make
@@ -265,16 +258,16 @@ connect simple circuits.
 1.  First connect the ribbon cable to the Pi. *Make sure the red stripe
     on the cable is on the left side*. See the figure below.
 
-![](./media/image24.jpeg){width="2.536111111111111in"
-height="1.9020833333333333in"}
+![](./media/image24.jpeg)
 
 1.  Align and install the breakout board onto the breadboard. See figure
     below.
 
-2.  ![](./media/image35.jpeg){width="3.1222222222222222in"
-    height="2.341666666666667in"}Connect the ribbon cable to the
+2.  Connect the ribbon cable to the
     breakout board. *Make sure the red stripe is on the side labeled 5V*
     as shown in the figure.
+	
+	![](./media/image35.jpeg)
 
 LED Blink – Using Digital Output on the Pi
 ------------------------------------------
@@ -294,7 +287,7 @@ figure). These are used as a “bus” or “rail” and in the case of the Pi
 are used to make connecting to ground, +3.3V and +5V very convenient.
 The diagram below might help you see how the breadboard is designed.
 
-![](./media/image36.jpeg){width="3.4in" height="2.3583333333333334in"}
+![](./media/image36.jpeg)
 
 1.  Use a wire to connect from GPIO pin 21 on the break out board to a
     resistor (use one of the 220 Ohm resistors – they have stripes in
@@ -304,7 +297,7 @@ The diagram below might help you see how the breadboard is designed.
     Make sure the *short leg of the LED* *is connected to ground*! The
     figure below shows the completed circuit.
 
-![](./media/image37.jpeg){width="3.2666666666666666in" height="2.45in"}
+![](./media/image37.jpeg)
 
 1.  Now enter the code so you can blink the LED! You probably ought to
     save it as blink.py or something like that. Run the program and, if
@@ -347,9 +340,10 @@ Reading a Pushbutton – Using Digital Input on the Pi
 The GPIO pins on the Pi can also be used to sense the physical
 environment and we’ll use it to sense whether or not a button is pushed.
 
-![](./media/image38.jpeg){width="4.488888888888889in"
-height="3.3666666666666667in"}1. Use a wire to connect the +5V rail to
+1\. Use a wire to connect the +5V rail to
 one side of the pushbutton
+
+![](./media/image38.jpeg)
 
 2\. Connect the other side of the pushbutton through a 10 kilo-ohm (which
 is brown-black-brown) to ground.
@@ -393,8 +387,9 @@ The servo has three connecting wires:
 
 -   Brown – This is connected to the ground rail.
 
--   ![](./media/image39.jpeg){width="2.6083333333333334in"
-    height="1.95625in"}Red – This is connected to the +V from your
+	![](./media/image39.jpeg)
+
+-   Red – This is connected to the +V from your
     battery pack and supplies the large current needed to move the
     servo.
 
@@ -417,8 +412,7 @@ Complete the circuit connections as follows:
     GPIO 19. After you have that sorted out you’re ready to code the Pi
     to make it move.
 
-![](./media/image40.jpeg){width="4.022222222222222in"
-height="3.0166666666666666in"}
+![](./media/image40.jpeg)
 
 1.  Enter the code shown below and check that your servo is working
     properly.
@@ -435,8 +429,7 @@ gate will open to allow traffic on the water. A traffic light will
 change from green to red to stop cars on the road as the gate closes. A
 push button will be used to control the gates and lights.
 
-![](./media/image41.png){width="4.22413823272091in"
-height="2.9641174540682416in"}
+![](./media/image41.png)
 
 You can do this project on your own or with a group. The key to success
 is to break the project down into smaller parts. You can do it on your
@@ -454,8 +447,7 @@ control station. Build your circuit on your breadboard. This circuit
 will fit on a small 400 pin board but you will need to carefully plan
 the position of each device.
 
-![](./media/image42.png){width="7.0783978565179355in"
-height="5.379309930008749in"}
+![](./media/image42.png)
 
 Step 2: Define GPIO mode and Set Input/Output Pins
 --------------------------------------------------
@@ -537,8 +529,7 @@ gate will open to allow traffic on the water. A traffic light will
 change from green to red to stop cars on the road as the gate closes. A
 push button will be used to control the gates and lights.
 
-![](./media/image41.png){width="4.22413823272091in"
-height="2.9641174540682416in"}
+![](./media/image41.png)
 
 You can do this project on your own or with a group. The key to success
 is to break the project down into smaller parts. You can do it on your
@@ -556,8 +547,7 @@ control station. Build your circuit on your breadboard. This circuit
 will fit on a small 400 pin board but you will need to carefully plan
 the position of each device.
 
-![](./media/image42.png){width="7.0783978565179355in"
-height="5.379309930008749in"}
+![](./media/image42.png)
 
 Step 2: Define GPIO mode and Set Input/Output Pins
 --------------------------------------------------
@@ -632,10 +622,9 @@ Student Notes
 
 Thank You to our Sponsors
 
-![](./media/image43.png){width="3.175in"
-height="1.7362642169728784in"}![](./media/image44.png){width="3.269364610673666in"
-height="1.4in"}![](./media/image45.png){width="3.5083333333333333in"
-height="2.2734930008748906in"}![](./media/image46.png){width="2.7916666666666665in"
-height="2.7916666666666665in"}![](./media/image47.jpeg){width="4.471543088363955in"
-height="1.075in"}![](./media/image48.png){width="4.681342957130359in"
-height="1.025in"}
+![](./media/image43.png)
+![](./media/image44.png)
+![](./media/image45.png)
+![](./media/image46.png)
+![](./media/image47.jpeg)
+![](./media/image48.png)
